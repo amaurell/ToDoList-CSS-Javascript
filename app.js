@@ -26,7 +26,7 @@ document.addEventListener('click', function (e, index) {
           /* Pega conteudo da Li */
           temp01 = el.parentElement.innerText;
           /* Remove o X e os espaços em branco */
-          temp01 = temp01.replace('X', '').trim();
+          temp01 = temp01.replace('x', '').trim();
            /* Procura o o item escolhido no array */
           el.parentElement.remove();
               listaTexto.forEach(function (e, index) {
